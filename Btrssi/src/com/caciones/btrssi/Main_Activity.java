@@ -35,7 +35,7 @@ public class Main_Activity extends Activity implements OnItemClickListener {
 	Set<BluetoothDevice> devicesArray;
 	ArrayList<String> pairedDevices;
 	ArrayList<BluetoothDevice> devices;
-	//
+	
 	//UUID de todos os aparelhos bt
 	public static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 	protected static final int SUCCESS_CONNECT = 0;
